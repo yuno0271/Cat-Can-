@@ -48,7 +48,8 @@ switch(l310E5137_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 0E433D28
 	/// @DnDParent : 310E5137
-	case 0:
+	/// @DnDArgument : "const" "vk_nokey"
+	case vk_nokey:
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 7DC2164B

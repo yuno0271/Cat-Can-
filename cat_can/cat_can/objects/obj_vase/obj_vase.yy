@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_obs",
+  "name": "obj_vase",
   "tags": [],
   "resourceType": "GMObject",
 }
