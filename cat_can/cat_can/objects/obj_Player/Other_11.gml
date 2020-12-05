@@ -44,13 +44,6 @@ if ((l71F07714_0 > 0))
 			/// @DnDArgument : "expr" "false"
 			/// @DnDArgument : "var" "collide"
 			collide = false;
-		
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 1C3524A6
-			/// @DnDParent : 56DB33C5
-			/// @DnDArgument : "var" "hsp"
-			hsp = 0;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Else
