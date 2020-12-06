@@ -191,4 +191,84 @@ switch(l1AD4F7C1_0)
 		/// @DnDArgument : "event" "4"
 		event_user(4);
 		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 45BB319C
+	/// @DnDComment : death
+	/// @DnDParent : 1AD4F7C1
+	/// @DnDArgument : "const" "4"
+	case 4:
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 3E3DF2F1
+		/// @DnDComment : hsp
+		/// @DnDParent : 45BB319C
+		/// @DnDArgument : "event" "1"
+		event_user(1);
+	
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 71C93326
+		/// @DnDComment : vsp
+		/// @DnDParent : 45BB319C
+		/// @DnDArgument : "event" "2"
+		event_user(2);
+	
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 1E81E219
+		/// @DnDComment : animation
+		/// @DnDParent : 45BB319C
+		/// @DnDArgument : "event" "3"
+		event_user(3);
+	
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 11C869A5
+		/// @DnDComment : state
+		/// @DnDParent : 45BB319C
+		/// @DnDArgument : "event" "4"
+		event_user(4);
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 732DE7CF
+	/// @DnDComment : damaged
+	/// @DnDParent : 1AD4F7C1
+	/// @DnDArgument : "const" "5"
+	case 5:
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 4C89D2EA
+		/// @DnDComment : hsp
+		/// @DnDParent : 732DE7CF
+		/// @DnDArgument : "event" "1"
+		event_user(1);
+	
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 2B5C1707
+		/// @DnDComment : vsp
+		/// @DnDParent : 732DE7CF
+		/// @DnDArgument : "event" "2"
+		event_user(2);
+	
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 481581A5
+		/// @DnDComment : animation
+		/// @DnDParent : 732DE7CF
+		/// @DnDArgument : "event" "3"
+		event_user(3);
+	
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 280F7AE6
+		/// @DnDComment : state
+		/// @DnDParent : 732DE7CF
+		/// @DnDArgument : "event" "4"
+		event_user(4);
+		break;
 }

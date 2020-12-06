@@ -102,4 +102,36 @@ switch(l596890EE_0)
 		/// @DnDArgument : "instvar" "10"
 		sprite_index = player_fall;
 		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 427F1680
+	/// @DnDComment : death
+	/// @DnDParent : 596890EE
+	/// @DnDArgument : "const" "4"
+	case 4:
+		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 7F4A5925
+		/// @DnDParent : 427F1680
+		/// @DnDArgument : "value" "player_death"
+		/// @DnDArgument : "instvar" "10"
+		sprite_index = player_death;
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 667267A1
+	/// @DnDComment : damaged
+	/// @DnDParent : 596890EE
+	/// @DnDArgument : "const" "5"
+	case 5:
+		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 5FE91983
+		/// @DnDParent : 667267A1
+		/// @DnDArgument : "value" "player_damaged"
+		/// @DnDArgument : "instvar" "10"
+		sprite_index = player_damaged;
+		break;
 }
