@@ -271,4 +271,19 @@ switch(l1AD4F7C1_0)
 		/// @DnDArgument : "event" "4"
 		event_user(4);
 		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 61D4BED2
+	/// @DnDParent : 1AD4F7C1
+	/// @DnDArgument : "const" "6"
+	case 6:
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 4FFEA880
+		/// @DnDParent : 61D4BED2
+		/// @DnDArgument : "expr" "hpMax"
+		/// @DnDArgument : "var" "hp"
+		hp = hpMax;
+		break;
 }
